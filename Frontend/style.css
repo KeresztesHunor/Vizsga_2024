@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+main {
+    width: 100%;
+    max-width: 720px;
+    margin: auto;
+}
+
+#fejlec,
+#szavak > div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-bottom: 1px solid black;
+    padding: 8px;
+}
+
+#szavak-tablazat {
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+
+#pontszam {
+    text-align: center;
+    padding: 16px;
+}
+
+footer {
+    text-align: center;
+}
+
+@media (max-width: 480px) {
+    #fejlec {
+        display: none;
+    }
+
+    #szavak > div {
+        display: block;
+    }
+}

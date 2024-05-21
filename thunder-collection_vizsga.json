@@ -1,0 +1,59 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "vizsga",
+    "collectionId": "28c44449-1ab4-4d63-963b-aa79eaa02497",
+    "dateExported": "2024-05-21T14:20:54.205Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "3817f207-b74d-4000-b1ed-7c1668dae393",
+            "colId": "28c44449-1ab4-4d63-963b-aa79eaa02497",
+            "containerId": "",
+            "name": "szavak",
+            "url": "szavak",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-05-21T12:51:00.110Z",
+            "modified": "2024-05-21T12:51:12.521Z",
+            "headers": []
+        },
+        {
+            "_id": "0d8d844d-7cea-41ca-8e44-4a70ef655bf6",
+            "colId": "28c44449-1ab4-4d63-963b-aa79eaa02497",
+            "containerId": "",
+            "name": "tema",
+            "url": "tema",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-05-21T12:51:50.162Z",
+            "modified": "2024-05-21T12:51:57.617Z",
+            "headers": []
+        },
+        {
+            "_id": "76a09781-6718-4a84-b57d-e737df6c7dd2",
+            "colId": "28c44449-1ab4-4d63-963b-aa79eaa02497",
+            "containerId": "",
+            "name": "szavak/tema",
+            "url": "szavak/{id}",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-05-21T12:52:12.078Z",
+            "modified": "2024-05-21T13:31:18.676Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "1",
+                    "isPath": true
+                }
+            ]
+        }
+    ],
+    "settings": {
+        "options": {
+            "baseUrl": "http://localhost:5226/"
+        }
+    },
+    "ref": "btluoi7g0gFP_1NItjmO1ylYOjX0FUGSrguYm8rOZPaBg74ipYN6TfmrXXa6EYegD5-gOoNswCPX8wRxLKPgrw"
+}
